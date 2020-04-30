@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d62c237-9c09-43f6-ac1a-b4694800dcf8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/repos/repos_suite_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/repos/repos_suite_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repos/generateMocks.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repos/mocks/GlobalRepository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repos/mocks/UsersRepo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repos/users_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/repos/users_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,6 +149,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="555" y="201" width="800" height="684" key="#Go_Modules_(vgo)/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587986565239" />
+    <state x="555" y="201" width="800" height="684" key="#Shell_Script" timestamp="1588270766986">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="201" width="800" height="684" key="#Shell_Script/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588270766986" />
     <state x="353" y="266" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588266665296">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -152,22 +161,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="742" y="301" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588266222173" />
-    <state width="1872" height="280" key="GridCell.Tab.0.bottom" timestamp="1588266898478">
+    <state width="1872" height="280" key="GridCell.Tab.0.bottom" timestamp="1588272390959">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="280" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588266898478" />
-    <state width="1872" height="280" key="GridCell.Tab.0.center" timestamp="1588266898478">
+    <state width="1872" height="280" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588272390959" />
+    <state width="1872" height="280" key="GridCell.Tab.0.center" timestamp="1588272390959">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="280" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588266898478" />
-    <state width="1872" height="280" key="GridCell.Tab.0.left" timestamp="1588266898478">
+    <state width="1872" height="280" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588272390959" />
+    <state width="1872" height="280" key="GridCell.Tab.0.left" timestamp="1588272390959">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="280" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588266898478" />
-    <state width="1872" height="280" key="GridCell.Tab.0.right" timestamp="1588266898478">
+    <state width="1872" height="280" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588272390959" />
+    <state width="1872" height="280" key="GridCell.Tab.0.right" timestamp="1588272390959">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1872" height="280" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588266898478" />
+    <state width="1872" height="280" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588272390959" />
     <state x="579" y="210" width="752" height="666" key="RollbackChangesDialog" timestamp="1588250755371">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -188,5 +197,13 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="626" y="367" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587981627679" />
+    <state x="610" y="158" width="690" height="771" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588272340902">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="610" y="158" width="690" height="771" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588272340902" />
+    <state x="536" y="219" width="848" height="642" key="find.popup" timestamp="1588270063377">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="536" y="219" width="848" height="642" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588270063377" />
   </component>
 </project>
