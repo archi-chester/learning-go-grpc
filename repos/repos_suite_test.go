@@ -21,9 +21,8 @@ var (
 	gr repos.GlobalRepository
 
 	truncateUsers = func() {
-		//	test with mock DB (2 lines)
-		//mock.ExpectQuery("TRUNCATE users").
-		//	WillReturnRows(sqlmock.NewRows([]string{}))
+		mock.ExpectQuery("TRUNCATE users").
+			WillReturnRows(sqlmock.NewRows([]string{}))
 
 		_, err = db.Query("TRUNCATE users")
 		Ω(err).To(BeNil())
@@ -42,25 +41,19 @@ var (
 
 var _ = BeforeSuite(func () {
 	//	connection string - root:pass@tcp(localhost:3306)/grpc
-	//	test with mock DB
-	//db, err = xorm.NewEngine("mysql", "")
-	db, err = xorm.NewEngine("mysql", "root:Qaz123456@tcp(localhost:3306)/grpc")
+	db, err = xorm.NewEngine("mysql", "")
 	Ω(err).To(BeNil())
-	//	test without mock db (2 lines)
-	_, err = db.DBMetas()
+
+	dbSql, mock, err = sqlmock.New(sqlmock.QueryMatcherOption(sqlmock.QueryMatcherEqual))
 	Ω(err).To(BeNil())
-	//	test with mock DB (3 lines)
-	//dbSql, mock, err = sqlmock.New(sqlmock.QueryMatcherOption(sqlmock.QueryMatcherEqual))
-	//Ω(err).To(BeNil())
-	//db.DB().DB = dbSql
+	db.DB().DB = dbSql
 
 	gr = repos.GlobalRepo(db)
 })
 
 var _ = AfterSuite(func() {
-	//	test with mock DB (2 lines)
-	//err = mock.ExpectationsWereMet()
-	//Ω(err).To(BeNil())
+	err = mock.ExpectationsWereMet()
+	Ω(err).To(BeNil())
 })
 
 func TestRepos(t *testing.T) {
