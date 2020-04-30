@@ -11,6 +11,7 @@ type UsersRepo interface {
 	Create(user *types.User) error
 	FindById(int64) (*types.User, error)
 	FindByEmail(string) (*types.User, error)
+	Update(*types.User) error
 }
 
 //	NewUsersRepo - return new user repo
@@ -71,4 +72,18 @@ func (u usersRepo) FindByEmail(email string) (user *types.User, err error) {
 		err = fmt.Errorf("unable to find user")
 		return
 	}
+
+	return
+}
+
+func (u usersRepo) Update(user *types.User) ( err error) {
+	if user == nil || user.ID <= 0 {
+		return fmt.Errorf("invalid user passed in")
+	}
+
+	if _, err := u.db.ID(user.ID).Update(user); err != nil {
+		return err
+	}
+
+	return
 }

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d62c237-9c09-43f6-ac1a-b4694800dcf8" name="Default Changelist" comment="" />
+    <list default="true" id="6d62c237-9c09-43f6-ac1a-b4694800dcf8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/repos/repos_suite_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repos/users_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repos/users.go" beforeDir="false" afterPath="$PROJECT_DIR$/repos/users.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,13 +52,20 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1b7RzkVEcOGrsRlF9GqP76Vw92H" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -64,12 +78,24 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/types" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go test learning-go-grpc" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
+      <module name="learning-go-grpc" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -80,11 +106,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="grpc@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="grpc@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@17cffdaf" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -116,6 +137,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
@@ -124,34 +148,38 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="555" y="201" width="800" height="684" key="#Go_Modules_(vgo)/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587986565239" />
-    <state x="348" y="396" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587985207939">
+    <state x="353" y="266" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588266665296">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="348" y="396" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587985207939" />
-    <state x="742" y="301" width="424" height="491" key="FileChooserDialogImpl" timestamp="1587986636901">
+    <state x="353" y="266" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588266665296" />
+    <state x="742" y="301" width="424" height="491" key="FileChooserDialogImpl" timestamp="1588266222173">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="742" y="301" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587986636901" />
-    <state width="1289" height="283" key="GridCell.Tab.0.bottom" timestamp="1587985839470">
+    <state x="742" y="301" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588266222173" />
+    <state width="1872" height="280" key="GridCell.Tab.0.bottom" timestamp="1588266898478">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1289" height="283" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587985839470" />
-    <state width="1289" height="283" key="GridCell.Tab.0.center" timestamp="1587985839470">
+    <state width="1872" height="280" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588266898478" />
+    <state width="1872" height="280" key="GridCell.Tab.0.center" timestamp="1588266898478">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1289" height="283" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587985839470" />
-    <state width="1289" height="283" key="GridCell.Tab.0.left" timestamp="1587985839470">
+    <state width="1872" height="280" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588266898478" />
+    <state width="1872" height="280" key="GridCell.Tab.0.left" timestamp="1588266898478">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1289" height="283" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587985839470" />
-    <state width="1289" height="283" key="GridCell.Tab.0.right" timestamp="1587985839470">
+    <state width="1872" height="280" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588266898478" />
+    <state width="1872" height="280" key="GridCell.Tab.0.right" timestamp="1588266898478">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1289" height="283" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587985839470" />
-    <state x="456" y="175" width="1007" height="737" key="SettingsEditor" timestamp="1587986655056">
+    <state width="1872" height="280" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588266898478" />
+    <state x="579" y="210" width="752" height="666" key="RollbackChangesDialog" timestamp="1588250755371">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="456" y="175" width="1007" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1587986655056" />
+    <state x="579" y="210" width="752" height="666" key="RollbackChangesDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588250755371" />
+    <state x="456" y="175" width="1007" height="737" key="SettingsEditor" timestamp="1588264302938">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="456" y="175" width="1007" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1588264302938" />
     <state x="862" y="436" width="356" height="252" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1587985066499">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
